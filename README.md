@@ -1,27 +1,27 @@
 # telescope
 
-> A light-weight component UI framework for Vue.js
+A light-weight component UI framework for Vue.js
 
-## Build Setup
+[comment]: <> ## Build Setup
 
-``` bash
-# install dependencies
-npm install
+[comment]: <> ``` bash
+[comment]: <> # install dependencies
+[comment]: <> npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+[comment]: <> # serve with hot reload at localhost:8080
+[comment]: <> npm run dev
 
-# build for production with minification
-npm run build
+[comment]: <> # build for production with minification
+[comment]: <> npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+[comment]: <> # build for production and view the bundle analyzer report
+[comment]: <> npm run build --report
 
-# run unit tests
-npm run unit
+[comment]: <> # run unit tests
+[comment]: <> npm run unit
 
-# run all tests
-npm test
-```
+[comment]: <> # run all tests
+[comment]: <> npm test
+[comment]: <>```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+[comment]: <> For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [comment]: <> [docs for vue-loader](http://vuejs.github.io/vue-loader).
