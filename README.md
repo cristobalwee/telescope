@@ -2,26 +2,28 @@
 
 A light-weight component UI framework for Vue.js
 
-[comment]: <> (## Build Setup
+[comment]: <> (## Build Setup)
 
-``` bash
-# install dependencies
-npm install
+[comment]: <> (``` bash)
 
-# serve with hot reload at localhost:8080
-npm run dev
+[comment]: <> (# install dependencies
+npm install)
 
-# build for production with minification
-npm run build
+[comment]: <> (# serve with hot reload at localhost:8080
+npm run dev)
 
-# build for production and view the bundle analyzer report
-npm run build --report
+[comment]: <> (# build for production with minification
+npm run build)
 
-# run unit tests
-npm run unit
+[comment]: <> (# build for production and view the bundle analyzer report
+npm run build --report)
 
-# run all tests
-npm test
-```
+[comment]: <> (# run unit tests
+npm run unit)
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).)
+[comment]: <> (# run all tests
+npm test)
+
+[comment]: <> (```)
+
+[comment]: <> (For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).)
