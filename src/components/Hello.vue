@@ -1,22 +1,15 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://gitter.im/vuejs/vue" target="_blank">Gitter Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-      <br>
-      <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a></li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
+  <div>
+    <nav>
+      <img src="../assets/logo.png">
+      <h3 class="right"><a href="https://github.com/cristobalwee/telescope">Github</a></h3>
+      <h3 class="right"><a href="http://cristobalgrana.me">About</a></h3>
+    </nav>
+    <div class="content">
+      <h1>A <span class="underline">next-gen</span> component library for the Web</h1>
+      <h2>Currently under development, but check out the sneak peek below.</h2>
+      <img src="../assets/pageview.png">
+    </div>
   </div>
 </template>
 
@@ -32,22 +25,76 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
+  body {
+    padding: 2rem;
+    overflow: hidden;
+  }
 
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+  nav img {
+    height: 2.5rem;
+  }
 
-a {
-  color: #42b983;
-}
+  h1 {
+    font-family: "Arvo", serif;
+    color: #404e5c;
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    color: #404e5c;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+  }
+
+  h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    color: #404e5c;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  a {
+    color: #404e5c;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+
+  a:hover {
+    border-bottom: solid 3px #404e5c;
+  }
+
+  .content {
+    text-align: center;
+    padding-top: 3rem;
+  }
+
+  .content img {
+    height: 30rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .right {
+    float: right;
+  }
+
+  .underline {
+    border-bottom: solid 4px #b7d0e2;
+    border-radius: 4px;
+  }
+
+  @media only screen and (max-width: 950px) {
+    .content img {
+      height: 25rem;
+    }
+  }
 </style>
