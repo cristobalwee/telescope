@@ -3,7 +3,7 @@
     <nav>
       <img src="../assets/logo.png">
       <h3 class="right"><a href="https://github.com/cristobalwee/telescope">Github</a></h3>
-      <h3 class="right"><a href="http://cristobalgrana.me">About</a></h3>
+      <h3 class="right"><a href="http://cristobalgrana.me">Developer</a></h3>
     </nav>
     <div class="content">
       <h1>A <span class="underline">next-gen</span> component library for the Web</h1>
@@ -25,7 +25,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style lang="scss">
   @import url('https://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:300,400,600,700,800');
 
   * {
