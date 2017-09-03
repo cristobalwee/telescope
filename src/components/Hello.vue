@@ -26,6 +26,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+  @import url('https://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:300,400,600,700,800');
+
   * {
     padding: 0;
     margin: 0;
