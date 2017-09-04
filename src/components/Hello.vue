@@ -6,9 +6,9 @@
       <h3 class="right"><a href="http://cristobalgrana.me">Developer</a></h3>
     </nav>
     <div class="content">
-      <h1>A <span class="underline">next-gen</span> component library for the Web</h1>
-      <h2>Currently under development, but check out the sneak peek below.</h2>
-      <img src="../assets/pageview.png">
+      <h1 class="anim anim-first">A <span class="underline">next-gen</span> component library for the Web</h1>
+      <h2 class="anim anim-second">Currently under development, but check out the sneak peek below.</h2>
+      <img class="anim anim-third" src="../assets/pageview.png">
     </div>
   </div>
 </template>
@@ -25,7 +25,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss">
+<style>
   @import url('https://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:300,400,600,700,800');
 
   * {
@@ -35,7 +35,6 @@ export default {
 
   body {
     padding: 2rem;
-    overflow: hidden;
   }
 
   nav img {
@@ -92,6 +91,27 @@ export default {
   .underline {
     border-bottom: solid 4px #b7d0e2;
     border-radius: 4px;
+  }
+
+  .anim {
+    opacity: 0;
+    margin-top: 2rem;
+    animation: fade-up 1s forwards ease;
+  }
+
+  .anim-second {
+    animation-delay: 0.25s;
+  }
+
+  .anim-third {
+    animation-delay: 0.5s;
+  }
+
+  @keyframes fade-up {
+    to {
+      margin-top: 0;
+      opacity: 1;
+    }
   }
 
   @media only screen and (max-width: 950px) {
